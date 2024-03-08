@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the body takes full viewport height */
+  }
+  
+  /* Full height for login page */
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #1a1a1a;
+  }
+  
+  .card {
+    background: #282828;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 300px;
+  }
+  
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a; /* Dark background */
+  }
+  
+  .card {
+    background: #282828; /* Slightly lighter dark shade for the card */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Stronger shadow for depth */
+    width: 300px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    color: #ffffff; /* White color for text */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555; /* Dark border */
+    background-color: #333; /* Darker background for inputs */
+    color: #ffffff; /* White text */
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d6efd; /* Bright color for contrast */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  button:hover {
+    background-color: #0b5ed7; /* Slightly darker shade for hover */
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
